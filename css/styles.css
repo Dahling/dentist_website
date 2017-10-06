@@ -413,5 +413,8 @@ h1 {
 @media (max-width: 1150px) {
   .navbar-default .navbar-nav > li > a {
     padding-top: 0px; } }
+@media (min-width: 1200px) {
+  img.img.pictures.headerpic {
+    height: auto; } }
 
 /*# sourceMappingURL=styles.css.map */
