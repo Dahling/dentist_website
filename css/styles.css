@@ -421,6 +421,9 @@ h1 {
     height: 650px !important; }
 
   .navbar-brand > img {
-    padding-left: 25%; } }
+    padding-left: 25%; }
+
+  .servicesGroup {
+    margin-top: 3%; } }
 
 /*# sourceMappingURL=styles.css.map */
