@@ -14,7 +14,8 @@ body {
   font-weight: lighter;
   padding-top: 110px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
-  background: #ffffff; }
+  background: #ffffff;
+  margin-top: 10px; }
 
 .navbar-brand > img {
   padding-left: 6%; }
@@ -216,9 +217,6 @@ li {
   padding-right: 0;
   padding-left: 0; }
 
-img.img.pictures.headerpic {
-  height: 400px; }
-
 .aboutMatt {
   padding: 20px;
   text-align: justify;
@@ -251,7 +249,7 @@ img.img.pictures.headerpic {
 .header4 {
   margin: auto;
   width: 90.1%;
-  margin-top: 35px;
+  margin-top: 100px;
   border: 5px solid #333333;
   background: #97c1db;
   /* Old browsers */
@@ -279,8 +277,7 @@ img.img.pictures.headerpic {
   line-height: 67px;
   text-align: left;
   background-color: #90abcc;
-  border-top: 5px solid black;
-  padding-left: 5%; }
+  border-top: 3px solid black; }
 
 .services2:hover {
   background-color: cornflowerblue;
@@ -304,6 +301,11 @@ img.img.pictures.headerpic {
 .services2 a {
   color: white;
   font-family: 'Playfair Display', serif; }
+
+.services2 {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  text-align: center; }
 
 .servicesGroup {
   margin-top: 1%; }
@@ -386,16 +388,35 @@ h1 {
   font-size: 25px;
   padding-top: 2%; }
 
-.loOffice {
-  padding-left: 18%; }
+img.img.headerpic.loOffice.pictures {
+  height: 300px; }
 
 .contactPage {
   border-bottom: 2px solid #333333;
   padding: 10px 0px 10px 0px; }
 
+@media (max-width: 448px) {
+  .contactInfo h3 {
+    font-size: 20px;
+    text-align: center; } }
+@media (max-width: 830px) {
+  .readMoreSection {
+    display: none; }
+
+  .contactInfo h3 {
+    font-size: 22px;
+    text-align: center; }
+
+  .navbar-default .navbar-nav > li > a {
+    padding-top: 0px;
+    font-size: 18px; } }
 @media (max-width: 877px) {
   .readMoreSection {
-    display: none; } }
+    display: none; }
+
+  .contactInfo h3 {
+    font-size: 22px;
+    text-align: center; } }
 @media (min-width: 577px) {
   .title {
     display: none; }
@@ -415,6 +436,11 @@ h1 {
     align-items: center; } }
 @media (max-width: 1150px) {
   .navbar-default .navbar-nav > li > a {
+    padding-top: 0px;
+    font-size: 22px; } }
+@media (max-width: 1166px) {
+  body {
+    margin-top: 100px;
     padding-top: 0px; } }
 @media (min-width: 1200px) {
   img.img.pictures.headerpic {
@@ -424,6 +450,15 @@ h1 {
     padding-left: 25%; }
 
   .servicesGroup {
-    margin-top: 3.5%; } }
+    margin-top: 3.5%; }
+
+  .contactInfo {
+    padding-top: 15%; }
+
+  .contactInfo h3 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center; } }
 
 /*# sourceMappingURL=styles.css.map */
